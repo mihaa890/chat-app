@@ -1,0 +1,54 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 20rem;
+
+}
+.enter-room-button{
+
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top:1rem
+}
+
+.enter-room-button:hover,
+.enter-room-button:focus {
+  background-color: #F082AC;
+}
+.text-input-field {
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    font-size: 20px;
+    margin-bottom:1rem
+}
+
